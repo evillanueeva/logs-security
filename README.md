@@ -8,8 +8,7 @@ A diferencia de los sistemas tradicionales estáticos, esta solución implementa
 **AI Core (Isolation Forest)**: Un modelo de Machine Learning no supervisado ideal para ciberseguridad, ya que identifica anomalías por aislamiento de forma eficiente y con bajo consumo de CPU.
 **Stateful Decision Agent (Mitigación Contextual)**: El núcleo del sistema. Utiliza una memoria en caché con una estrategia de Ventana Deslizante de 60 segundos. Si una IP genera anomalías consecutivas, el agente escala de forma autónoma la acción de ALERT a BLOCK, previniendo ataques distribuidos o de fuerza bruta.
 
-## 💡 Nota de Arquitectura: 
-La memoria actual se emula mediante un defaultdict optimizado en la RAM del contenedor. En un entorno productivo, este componente se desacoplaría hacia un clúster de Redis para soportar el escalado horizontal de las instancias de FastAPI.
+**💡 Nota de Arquitectura:** La memoria actual se emula mediante un defaultdict optimizado en la RAM del contenedor. En un entorno productivo, este componente se desacoplaría hacia un clúster de Redis para soportar el escalado horizontal de las instancias de FastAPI.
 
 ## 🛠️ Tecnologías Utilizadas
 **Python 3.10+** (Core del lenguaje)
