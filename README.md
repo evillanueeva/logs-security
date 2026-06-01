@@ -1,6 +1,3 @@
-ESAFIO-MELI
-Agente de detección de anomalías de accesos
-
 Detector de Anomalías de accesos
 Este proyecto implementa un pipeline inteligente y contenedorizado para la detección, análisis y mitigación de anomalías en registros de accesos (logs) en tiempo real.
 
