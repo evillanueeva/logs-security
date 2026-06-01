@@ -64,7 +64,7 @@ Datos de prueba de funcionamiento:
 ### 1. Interfaz Principal del Sistema
 A continuación se detalla la landing page corporativa con el estado del sistema y accesos rápidos a la documentación:
 
-![Pagina Principal](./imagespagina_principal.PNG)
+![Pagina Principal](./imagespa/gina_principal.PNG)
 
 ### 2. Respuesta de la API y Mitigación de Amenazas
 Muestra del procesamiento en lote donde el Agente de Decisión mitiga las amenazas aplicando un bloqueo crítico (`BLOCK`) por reincidencia:
